@@ -39,8 +39,19 @@
           name: 'FirstComponent',
           data(){
             return {text: 'Я новый компонент!'}
-  }
-}
+          }
+       };
+        new Vue({
+            el: '#app',
+            data(){
+               return {
+                  temperatureReal: 1,
+                  temperatureFeel: '-3.2',
+                  humidity: 6,
+                  wind: 20
+               }
+            }
+        })
     </script>
 
 </html>
